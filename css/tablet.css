@@ -10,13 +10,10 @@
 
 /* 공통 : font */
 h1 {
-  font-size: var(--font-size__pc-h1);
+  font-size: var(--font-size__tablet-h1);
 }
 h2 {
-  font-size: var(--font-size__pc-h2);
-}
-p {
-  font-size: var(--font-size__pc-p);
+  font-size: var(--font-size__tablet-h2);
 }
 
 /* 네비게이션 */
@@ -27,12 +24,12 @@ p {
 }
 
 .intro1-title {
-  margin-top: 140px;
+  margin-top: 120px;
 }
 
 /* 인트로2 사용자 고민 */
 .c-header {
-  margin: 140px 0 40px 0;
+  margin: 110px 0 40px 0;
 }
 
 /* 결과: 카테고리 가로 스크롤 */
@@ -44,7 +41,7 @@ p {
 #review {
   position: absolute;
   width: 100%;
-  top: 2500px;
+  top: 2150px;
 }
 
 .c-img-list__review li img {
@@ -53,13 +50,13 @@ p {
 
 /* care+ */
 .bgLocation {
-  top: 550px;
+  top: 500px;
 }
 
 .c-phone-screen__content-lg {
   position: absolute;
   top: 130px;
-  width: 115%;
+  width: 105%;
 }
 
 .phone-screen__care {
@@ -70,7 +67,7 @@ p {
 #coaching {
   position: absolute;
   width: 100%;
-  top: 4200px;
+  top: 3700px;
 }
 
 .coaching-01 {
@@ -119,7 +116,7 @@ p {
 /* 피드 */
 .bgLocation-pc {
   position: relative;
-  top: 1600px;
+  top: 1520px;
 }
 
 /* 보안 */
