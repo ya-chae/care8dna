@@ -3,7 +3,7 @@ body {
   font-family: "Spoqa Han Sans Neo", "sans-serif";
   font-weight: normal;
   font-size: 16px;
-  min-width: 360px;
+  min-width: 320px;
 }
 
 .container {
@@ -168,6 +168,23 @@ body {
 
 .c-phone-screen__bgImg {
   width: 100%;
+}
+
+/* 결과: 카테고리 가로 스크롤 */
+.slide-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+}
+
+.slide-item {
+  flex: 0 0 auto;
 }
 
 /* 사용자 리뷰 */
