@@ -30,6 +30,8 @@ $("document").ready(function (){
         return false;
     })
 
+
+    // scroll 시 fade in 효과
     function isElementUnderBottom(elem, triggerDiff) {
         const {top} = elem.getBoundingClientRect();
         const {innerHeight} = window;
