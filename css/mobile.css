@@ -45,7 +45,7 @@ body {
 .mobile-navi__logo {
   width: 120px;
   height: 30px;
-  background: url("/img/bi-white.jpg") no-repeat;
+  background: url("/img/bi-white.webp") no-repeat;
   background-size: cover;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .active-bi {
   width: 120px;
-  height: 26px;
+  height: 28px;
   background: url("/img/bi-black.jpg") no-repeat;
   background-size: cover;
 }
@@ -231,7 +231,7 @@ body {
 .coaching-01-icon {
   width: 280px;
   height: 438px;
-  background: url("/img/coaching-01-icon.jpg") no-repeat;
+  background: url("/img/coaching-01-icon.webp") no-repeat;
   background-size: contain;
   position: relative;
   top: 84px;
@@ -272,7 +272,7 @@ body {
 }
 
 .coaching-03 {
-  width: 88%;
+  width: 82%;
   max-width: 600px;
   height: 500px;
   border-radius: 24px;
