@@ -26,7 +26,7 @@ $("document").ready(function (){
 
     // 결과 : 결과-카테고리 이미지 선택 시 해당 카테고리 결과 화면으로 이미지로 변경
     $('.slide-item a').click(function(){
-        $('.c-phone-screen__content').attr('src', $(this).attr('href'))
+        $('.result-screen').attr('src', $(this).attr('href'))
         return false;
     })
 });
