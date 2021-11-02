@@ -1,0 +1,154 @@
+/* 공통 */
+.container {
+  width: 60%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 공통 : font */
+h1 {
+  font-size: var(--font-size__pc-h1);
+}
+h2 {
+  font-size: var(--font-size__pc-h2);
+}
+p {
+  font-size: var(--font-size__pc-p);
+}
+
+/* 네비게이션 */
+
+/* 인트로1 */
+.bgImage {
+  background: url("/images/intro1.png") no-repeat center/cover;
+}
+
+.intro1-title {
+  margin-top: 140px;
+}
+
+/* 인트로2 사용자 고민 */
+.c-header {
+  margin: 140px 0 40px 0;
+}
+
+/* 리뷰 */
+#review {
+  position: absolute;
+  width: 100%;
+  top: 2500px;
+}
+
+.c-img-list__review li img {
+  margin-bottom: 60px;
+}
+
+/* care+ */
+.bgLocation {
+  top: 550px;
+}
+
+.c-phone-screen__content-lg {
+  position: absolute;
+  top: 130px;
+  width: 115%;
+}
+
+.phone-screen__care {
+  width: 100%;
+}
+
+/* 건강코칭 */
+#coaching {
+  position: absolute;
+  width: 100%;
+  top: 4200px;
+}
+
+.coaching-01 {
+  width: 820px;
+  height: 380px;
+  background: url("/images/coaching-01-pc.png") no-repeat center;
+  background-size: contain;
+}
+
+.coaching-01-icon {
+  position: relative;
+  top: -20px;
+  left: 450px;
+}
+
+.coaching-text {
+  font-size: 20px;
+}
+
+.coaching-text-lg {
+  font-size: 24px;
+}
+
+.coaching-02 {
+  width: 250px;
+  height: 416px;
+}
+
+.coaching-02-icon {
+  position: relative;
+  top: 210px;
+  left: 20px;
+}
+
+.coaching-03 {
+  width: 550px;
+  height: 416px;
+}
+
+.coaching-03-img {
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+
+/* 피드 */
+.bgLocation-pc {
+  position: relative;
+  top: 1600px;
+}
+
+/* 보안 */
+.security-img {
+  width: 820px;
+  height: 380px;
+  background: url("/images/security-pc.png") no-repeat;
+  background-size: contain;
+}
+
+.security-pc-text {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+/* 자주하는 질문 */
+.c-header__title-icon::after {
+  width: 32px;
+  height: 32px;
+}
+
+.accordion-btn {
+  font-size: var(--font-size__pc-title-sm);
+}
+
+.accordion-text p {
+  font-size: var(--font-size__pc-text-sm);
+}
+
+.footer-paragraph-title p {
+  font-size: var(--font-size__pc-title-sm);
+}
+
+.footer-paragraph-text p {
+  font-size: var(--font-size__pc-text-sm);
+}

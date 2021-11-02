@@ -1,0 +1,481 @@
+/* 공통 */
+body {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  font-weight: normal;
+  font-size: 16px;
+  min-width: 360px;
+}
+
+.container {
+  width: 85%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* 공통 변수 : Font */
+.emphasis {
+  color: #12e6d4;
+}
+
+.emphasis-blue {
+  color: #3096ff;
+}
+
+/* 네비게이션 : 기본 */
+.mobile-navi {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  padding: 15px 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.mobile-navi__logo {
+  width: 120px;
+  height: 30px;
+  background: url("/images/bi-white.png") no-repeat;
+  background-size: cover;
+}
+
+.mobile-navi__menu {
+  color: #fff;
+}
+
+/* 네비게이션 : 스크롤 내렸을 때 css .active */
+.active-bgColor {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px -4px #b1bac3;
+}
+
+.active-bi {
+  width: 120px;
+  height: 26px;
+  background: url("/images/bi-black.png") no-repeat;
+  background-size: cover;
+}
+
+.active-menu {
+  color: #222a37;
+}
+
+/* 메인 전체 */
+.mobile-main {
+  position: relative;
+}
+
+/* 인트로1 */
+/* 요소 이름 앞에 'c-'붙은 건 다른 곳에도 쓰이는 공통 요소 */
+#intro1 {
+  width: 100%;
+  height: 100vh;
+}
+
+.bgImage {
+  background: url("/images/intro1_mo.png") no-repeat center/cover;
+}
+
+.intro1-title {
+  margin-top: 100px;
+  color: #fff;
+}
+
+/* 인트로2 사용자 고민 */
+.c-header {
+  margin: 80px 0 40px 0;
+}
+
+.c-header__title,
+.c-header__text {
+  text-align: center;
+}
+
+.c-header__text {
+  margin-top: 20px;
+  color: #4e5968;
+}
+
+.c-header__title-white,
+.c-header__text-white {
+  color: #fff;
+}
+
+.c-img-list-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-location {
+  margin-top: -25px;
+}
+
+.img-intro2 {
+  height: 220px;
+}
+
+/* 결과 */
+.c-img-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.c-img-list {
+  display: flex;
+  margin: 0 auto;
+}
+
+.c-img-list__result-category li img {
+  height: 120px;
+  margin-left: 20px;
+}
+
+.c-phone-screen {
+  position: relative;
+  width: 340px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.c-phone-screen__content {
+  position: absolute;
+  width: 80%;
+  top: 100px;
+}
+
+.c-phone-screen__content-lg {
+  width: 95%;
+}
+
+.c-phone-screen__content-location {
+  top: 160px;
+}
+
+.c-phone-screen__bgImg {
+  width: 100%;
+}
+
+/* 사용자 리뷰 */
+#review {
+  position: absolute;
+  width: 100%;
+  top: 2120px;
+}
+
+.bgColor-blue {
+  background-color: #23d2f4;
+}
+
+.c-img-list__review {
+  margin-left: -80%;
+}
+
+.c-img-list__review li img {
+  height: 340px;
+  margin-bottom: 20px;
+  margin-right: -40px;
+}
+
+/* care+ */
+.bgLocation {
+  position: relative;
+  top: 400px;
+}
+
+.phone-screen__care {
+  width: 80%;
+}
+
+/* 건강코칭 */
+.bgColor-gray {
+  background-color: #f6f9fe;
+}
+
+/* 보안에서도 group-margin, group, coaching-text class 사용 */
+.group-margin {
+  margin-bottom: 60px;
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.group div {
+  margin: 0 10px 20px 10px;
+}
+
+.coaching-01 {
+  width: 316px;
+  height: 438px;
+  background: url("/images/coaching-01.png") no-repeat;
+  background-size: contain;
+}
+
+.coaching-01-icon {
+  width: 280px;
+  height: 438px;
+  background: url("/images/coaching-01-icon.png") no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 84px;
+  left: 15px;
+}
+
+.coaching-text {
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.coaching-text-lg {
+  font-size: 24px;
+}
+
+.coaching-text-black {
+  color: #000;
+}
+
+.coaching-02 {
+  width: 316px;
+  height: 336px;
+  border-radius: 24px;
+  background-color: #5080ff;
+}
+
+.coaching-02-icon {
+  width: 100px;
+  height: 100px;
+  background: url("/images/coaching-02-icon.png") no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 150px;
+  left: 30px;
+}
+
+.coaching-03 {
+  width: 88%;
+  max-width: 600px;
+  height: 500px;
+  border-radius: 24px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coaching-03-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 40px;
+  left: 8px;
+}
+
+.coaching-03-img img {
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+/*  피드 */
+.img-feed {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* 스토어 다운로드 */
+.store-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.store-btn img {
+  width: 40%;
+  max-width: 200px;
+  margin: 0 6px;
+}
+
+/* 보안 */
+.security-img {
+  width: 316px;
+  height: 470px;
+  background: url("/images/security.png") no-repeat;
+  background-size: contain;
+}
+
+/* 검사 방법 */
+.step-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0 40px 0;
+}
+
+.step-box {
+  position: relative;
+  width: 340px;
+  display: flex;
+  justify-content: center;
+}
+
+.step-box__text {
+  position: absolute;
+  width: 80%;
+  top: 72px;
+}
+
+.step-box__text-01 {
+  text-align: center;
+}
+
+.step-box__text-02 {
+  margin: 30px 8px;
+}
+
+.step-box__text-02 p {
+  color: #3a3a3a;
+  font-size: var(--font-size__text-sm);
+}
+
+.step-box__text-02-location {
+  margin-left: 30px;
+}
+
+.step-box__text-02 p {
+  padding: 3px;
+}
+
+.text-indent {
+  margin-left: 8px;
+}
+
+.step-box__bgImg {
+  width: 340px;
+}
+
+/* 자주하는 질문 */
+.c-header__title-icon::after {
+  content: "";
+  background: url("/images/faq-chat.png") no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.c-img-list-col-space {
+  margin: 20px 0 60px 0;
+}
+
+.bgColor-navy {
+  background-color: #374559;
+}
+
+.c-header__title img {
+  width: 6%;
+  max-width: 40px;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 800px;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 0 24px;
+  border-radius: 30px;
+}
+
+.accordion-btn {
+  width: 100%;
+  font-size: var(--font-size__title-sm);
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  position: relative;
+  line-height: 40px;
+  padding: 12px 0;
+}
+
+.accordion-btn::after {
+  content: "";
+  background: url("/images/faq-arrow-up.png"), no-repeat;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  top: 28px;
+}
+
+.basic::after {
+  content: "";
+  background: url("/images/faq-arrow-down.png"), no-repeat;
+  background-size: cover;
+  top: 25px;
+}
+
+.accordion-text {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 24px 0 30px 0;
+  display: none;
+  line-height: 23px;
+}
+
+.accordion-text p {
+  color: #3a3a3a;
+  font-size: var(--font-size__text-sm);
+}
+
+/* 푸터 */
+.wrapper {
+  width: 85%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bgColor-darkNavy {
+  background-color: #222a37;
+}
+
+.footer-paragraph-title {
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+.footer-paragraph-title p {
+  color: #b1bac3;
+  font-size: var(--font-size__title-sm);
+  font-weight: bold;
+}
+
+.footer-paragraph-text p {
+  color: #7a8799;
+  font-size: var(--font-size__text-sm);
+  padding: 4px 0;
+}

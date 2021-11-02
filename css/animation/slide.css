@@ -1,0 +1,49 @@
+/* 인트로02, 피드 slide animation */
+.slide-right {
+  -webkit-animation: slide-right 20s linear infinite;
+  animation: slide-right 20s linear infinite;
+}
+
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-400px);
+    transform: translateX(-400px);
+  }
+  100% {
+    -webkit-transform: translateX(400px);
+    transform: translateX(400px);
+  }
+}
+
+.slide-left {
+  -webkit-animation: slide-left 20s linear infinite;
+  animation: slide-left 20s linear infinite;
+}
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(400px);
+    transform: translateX(400px);
+  }
+  100% {
+    -webkit-transform: translateX(-400px);
+    transform: translateX(-400px);
+  }
+}
+
+/* 리뷰(ul) slide */
+.ul-slide-left {
+  -webkit-animation: ul-slide-left 100s linear infinite;
+  animation: ul-slide-left 100s linear infinite;
+}
+
+@keyframes ul-slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-340px * 11));
+    transform: translateX(calc(-340px * 11));
+  }
+}

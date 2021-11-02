@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  font-weight: normal;
+  font-size: 16px;
+}
