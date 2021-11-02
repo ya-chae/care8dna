@@ -127,10 +127,10 @@ body {
 
 /* 결과 */
 .c-img-screen {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
   margin-bottom: 40px;
 }
 
@@ -141,7 +141,7 @@ body {
 
 .c-img-list__result-category li img {
   height: 120px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .c-phone-screen {
@@ -149,7 +149,7 @@ body {
   width: 340px;
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin: 15px auto auto auto;
 }
 
 .c-phone-screen__content {
@@ -176,7 +176,7 @@ body {
 }
 
 .slide-wrapper {
-  display: flex;
+  /* display: flex; */
   flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
