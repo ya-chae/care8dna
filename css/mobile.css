@@ -498,3 +498,7 @@ body {
   font-size: var(--font-size__text-sm);
   padding: 4px 0;
 }
+
+.up-on-scroll {
+  transition: transform 0.7s, opacity 1s;
+}
