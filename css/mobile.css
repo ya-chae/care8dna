@@ -151,6 +151,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 15px;
+  z-index: -1;
 }
 
 .c-phone-screen__content {
@@ -177,7 +178,6 @@ body {
 }
 
 .slide-wrapper {
-  /* display: flex; */
   flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -191,8 +191,7 @@ body {
 
 /* 사용자 리뷰 */
 #review {
-  position: relative;
-  top: -200px;
+  margin-top: -200px;
 }
 
 .bgColor-blue {
@@ -210,11 +209,6 @@ body {
 }
 
 /* care+ */
-.bgLocation {
-  position: relative;
-  top: -150px;
-}
-
 .phone-screen__care {
   width: 80%;
 }
@@ -479,7 +473,7 @@ body {
 
 .bgColor-darkNavy {
   width: 100%;
-  height: 1000px;
+  height: 800px;
   background-color: #222a37;
 }
 

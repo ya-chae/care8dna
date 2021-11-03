@@ -32,24 +32,13 @@ p {
 }
 
 /* care+ */
-#care-plus {
-  position: relative;
-  top: -160px;
-}
-
-.bgLocation {
-  position: relative;
-  top: -200px;
-}
-
 .c-phone-screen__content-lg {
   width: 115%;
 }
 
 /* 건강코칭 */
 #coaching {
-  position: relative;
-  top: -320px;
+  margin-top: -150px;
 }
 
 .coaching-01 {
