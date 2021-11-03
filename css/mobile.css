@@ -45,7 +45,7 @@ body {
 .mobile-navi__logo {
   width: 120px;
   height: 30px;
-  background: url("./img/bi-white.webp") no-repeat;
+  background: url("../img/bi-white.webp") no-repeat;
   background-size: cover;
 }
 
@@ -62,7 +62,7 @@ body {
 .active-bi {
   width: 120px;
   height: 28px;
-  background: url("./img/bi-black.jpg") no-repeat;
+  background: url("../img/bi-black.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .bgImage {
-  background: url("./img/intro1-mo.jpg") no-repeat center;
+  background: url("../img/intro1-mo.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -243,14 +243,14 @@ body {
 .coaching-01 {
   width: 316px;
   height: 438px;
-  background: url("./img/coaching-01.jpg") no-repeat;
+  background: url("../img/coaching-01.jpg") no-repeat;
   background-size: contain;
 }
 
 .coaching-01-icon {
   width: 280px;
   height: 438px;
-  background: url("./img/coaching-01-icon.webp") no-repeat;
+  background: url("../img/coaching-01-icon.webp") no-repeat;
   background-size: contain;
   position: relative;
   top: 84px;
@@ -283,7 +283,7 @@ body {
 .coaching-02-icon {
   width: 100px;
   height: 100px;
-  background: url("./img/coaching-02-icon.webp") no-repeat;
+  background: url("../img/coaching-02-icon.webp") no-repeat;
   background-size: contain;
   position: relative;
   top: 150px;
@@ -337,7 +337,7 @@ body {
 .security-img {
   width: 316px;
   height: 470px;
-  background: url("./img/security.jpg") no-repeat;
+  background: url("../img/security.jpg") no-repeat;
   background-size: contain;
 }
 
@@ -394,7 +394,7 @@ body {
 /* 자주하는 질문 */
 .c-header__title-icon::after {
   content: "";
-  background: url("./img/faq-chat.webp") no-repeat;
+  background: url("../img/faq-chat.webp") no-repeat;
   background-size: cover;
   width: 24px;
   height: 24px;
@@ -438,7 +438,7 @@ body {
 
 .accordion-btn::after {
   content: "";
-  background: url("./img/faq-arrow-up.webp"), no-repeat;
+  background: url("../img/faq-arrow-up.webp"), no-repeat;
   background-size: cover;
   width: 15px;
   height: 15px;
@@ -450,7 +450,7 @@ body {
 
 .basic::after {
   content: "";
-  background: url("./img/faq-arrow-down.webp"), no-repeat;
+  background: url("../img/faq-arrow-down.webp"), no-repeat;
   background-size: cover;
   top: 25px;
 }

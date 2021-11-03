@@ -23,7 +23,7 @@ p {
 
 /* 인트로1 */
 .bgImage {
-  background: url("./img/intro1-pc.jpg") no-repeat center/cover;
+  background: url("../img/intro1-pc.jpg") no-repeat center/cover;
 }
 
 .intro1-title {
@@ -76,7 +76,7 @@ p {
 .coaching-01 {
   width: 820px;
   height: 380px;
-  background: url("./img/coaching-01-pc.jpg") no-repeat center;
+  background: url("../img/coaching-01-pc.jpg") no-repeat center;
   background-size: contain;
 }
 
@@ -126,7 +126,7 @@ p {
 .security-img {
   width: 820px;
   height: 380px;
-  background: url("./img/security-pc.jpg") no-repeat;
+  background: url("../img/security-pc.jpg") no-repeat;
   background-size: contain;
 }
 
