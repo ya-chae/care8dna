@@ -1,6 +1,6 @@
 /* 공통 */
 .container {
-  width: 60%;
+  width: 70%;
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
@@ -20,7 +20,7 @@ h2 {
 
 /* 인트로1 */
 .bgImage {
-  background: url("../img/intro1-pc.jpg") no-repeat center/cover;
+  background: url("../img/intro1-pc.webp") no-repeat center/cover;
 }
 
 .intro1-title {
@@ -38,24 +38,21 @@ h2 {
 }
 
 /* 사용자 리뷰 */
-#review {
-  position: absolute;
-  width: 100%;
-  top: 2150px;
-}
-
 .c-img-list__review li img {
   margin-bottom: 60px;
 }
 
 /* care+ */
 .bgLocation {
-  top: 500px;
+  position: relative;
+  top: -200px;
+}
+
+.c-phone-screen__content {
+  top: 130px;
 }
 
 .c-phone-screen__content-lg {
-  position: absolute;
-  top: 130px;
   width: 105%;
 }
 
@@ -64,31 +61,20 @@ h2 {
 }
 
 /* 건강코칭 */
-#coaching {
-  position: absolute;
-  width: 100%;
-  top: 3700px;
-}
-
 .coaching-01 {
   width: 820px;
   height: 380px;
-  background: url("../img/coaching-01-pc.jpg") no-repeat center;
+  background: url("../img/coaching-01-pc.webp") no-repeat center;
   background-size: contain;
 }
 
 .coaching-01-icon {
-  position: relative;
   top: -20px;
-  left: 450px;
+  left: 390px;
 }
 
 .coaching-text {
   font-size: 20px;
-}
-
-.coaching-text-lg {
-  font-size: 24px;
 }
 
 .coaching-02 {
@@ -97,7 +83,6 @@ h2 {
 }
 
 .coaching-02-icon {
-  position: relative;
   top: 210px;
   left: 20px;
 }
@@ -108,22 +93,15 @@ h2 {
 }
 
 .coaching-03-img {
-  position: relative;
   top: 30px;
   left: 40px;
-}
-
-/* 피드 */
-.bgLocation-pc {
-  position: relative;
-  top: 1520px;
 }
 
 /* 보안 */
 .security-img {
   width: 820px;
   height: 380px;
-  background: url("../img/security-pc.jpg") no-repeat;
+  background: url("../img/security-pc.webp") no-repeat;
   background-size: contain;
 }
 

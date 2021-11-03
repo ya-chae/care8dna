@@ -3,7 +3,7 @@
 @import "variables.css";
 @import url("mobile.css") screen and (min-width: 320px);
 @import url("tablet.css") screen and (min-width: 768px);
-@import url("pc.css") screen and (min-width: 1024px);
+@import url("pc.css") screen and (min-width: 1044px);
 
 /* 애니메이션 */
 @import "animation/slide.css";

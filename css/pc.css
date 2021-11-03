@@ -22,10 +22,6 @@ p {
 /* 네비게이션 */
 
 /* 인트로1 */
-.bgImage {
-  background: url("../img/intro1-pc.jpg") no-repeat center/cover;
-}
-
 .intro1-title {
   margin-top: 140px;
 }
@@ -35,48 +31,31 @@ p {
   margin: 140px 0 40px 0;
 }
 
-/* 결과: 카테고리 가로 스크롤 */
-.slide-wrapper {
-  justify-content: center;
-}
-
-/* 사용자 리뷰 */
-#review {
-  position: absolute;
-  width: 100%;
-  top: 2500px;
-}
-
-.c-img-list__review li img {
-  margin-bottom: 60px;
-}
-
 /* care+ */
+#care-plus {
+  position: relative;
+  top: -160px;
+}
+
 .bgLocation {
-  top: 550px;
+  position: relative;
+  top: -200px;
 }
 
 .c-phone-screen__content-lg {
-  position: absolute;
-  top: 130px;
   width: 115%;
-}
-
-.phone-screen__care {
-  width: 100%;
 }
 
 /* 건강코칭 */
 #coaching {
-  position: absolute;
-  width: 100%;
-  top: 4200px;
+  position: relative;
+  top: -320px;
 }
 
 .coaching-01 {
   width: 820px;
   height: 380px;
-  background: url("../img/coaching-01-pc.jpg") no-repeat center;
+  background: url("../img/coaching-01-pc.webp") no-repeat center;
   background-size: contain;
 }
 
@@ -105,28 +84,17 @@ p {
   left: 20px;
 }
 
-.coaching-03 {
-  width: 550px;
-  height: 416px;
-}
-
-.coaching-03-img {
-  position: relative;
-  top: 30px;
-  left: 40px;
-}
-
 /* 피드 */
-.bgLocation-pc {
+.bgLocation {
   position: relative;
-  top: 1600px;
+  top: -310px;
 }
 
 /* 보안 */
 .security-img {
   width: 820px;
   height: 380px;
-  background: url("../img/security-pc.jpg") no-repeat;
+  background: url("../img/security-pc.webp") no-repeat;
   background-size: contain;
 }
 
