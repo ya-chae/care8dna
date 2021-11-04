@@ -122,11 +122,11 @@ body {
   align-items: center;
 }
 
-.c-img-list-col div {
+.c-img-list-col__slide {
   display: flex;
 }
 
-.c-img-list-col div img {
+.c-img-list-col__slide img {
   margin-left: -50px;
 }
 
