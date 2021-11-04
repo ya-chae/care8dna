@@ -120,6 +120,7 @@ h2 {
   font-size: var(--font-size__pc-text-sm);
 }
 
+/* 푸터 */
 .footer-paragraph-title p {
   font-size: var(--font-size__pc-title-sm);
 }
