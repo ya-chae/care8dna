@@ -14,13 +14,13 @@ $("document").ready(function (){
     // 스크롤 시 네비게이션 active 상태로 변경 
     $(window).on('scroll', function(){
         if($(window).scrollTop()){
-            $('.mobile-navi').addClass('active-bgColor');
-            $('.mobile-navi__logo').addClass('active-bi');
-            $('.mobile-navi__menu').addClass('active-menu');
+            $('.navi').addClass('active-bgColor');
+            $('.navi-logo').addClass('active-bi');
+            $('.navi-menu').addClass('active-menu');
         } else {
-            $('.mobile-navi').removeClass('active-bgColor');
-            $('.mobile-navi__logo').removeClass('active-bi');
-            $('.mobile-navi__menu').removeClass('active-menu');
+            $('.navi').removeClass('active-bgColor');
+            $('.navi-logo').removeClass('active-bi');
+            $('.navi-menu').removeClass('active-menu');
         }
     });
 
