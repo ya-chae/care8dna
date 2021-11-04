@@ -53,6 +53,10 @@ body {
   color: #fff;
 }
 
+.navi-menu__pc {
+  display: none;
+}
+
 /* 네비게이션 : 스크롤 내렸을 때 css .active */
 .active-bgColor {
   background-color: rgb(255, 255, 255);
