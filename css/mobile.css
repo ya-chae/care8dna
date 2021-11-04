@@ -45,7 +45,7 @@ body {
 .navi-logo {
   width: 110px;
   height: 25px;
-  background: url("../img/bi-white.png") no-repeat;
+  background: url("../img/bi-white@2x.png") no-repeat;
   background-size: cover;
 }
 
@@ -66,7 +66,7 @@ body {
 .active-bi {
   width: 110px;
   height: 25px;
-  background: url("../img/bi-black.png") no-repeat;
+  background: url("../img/bi-black@2x.png") no-repeat;
   background-size: cover;
 }
 
@@ -120,6 +120,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.c-img-list-col div {
+  display: flex;
+}
+
+.c-img-list-col div img {
+  margin-left: -50px;
 }
 
 .img-location {
@@ -240,14 +248,14 @@ body {
 .coaching-01 {
   width: 316px;
   height: 438px;
-  background: url("../img/coaching-01.png") no-repeat;
+  background: url("../img/coaching-01.") no-repeat;
   background-size: contain;
 }
 
 .coaching-01-icon {
   width: 280px;
   height: 438px;
-  background: url("../img/coaching-01-icon.png") no-repeat;
+  background: url("../img/coaching-01-icon@2x.png") no-repeat;
   background-size: contain;
   position: relative;
   top: 84px;
@@ -280,7 +288,7 @@ body {
 .coaching-02-icon {
   width: 100px;
   height: 100px;
-  background: url("../img/coaching-02-icon.png") no-repeat;
+  background: url("../img/coaching-02-icon@2x.png") no-repeat;
   background-size: contain;
   position: relative;
   top: 150px;
