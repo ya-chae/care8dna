@@ -59,21 +59,21 @@
 .mo-side-login button {
   border: 1px solid #c3c4c6;
   border-radius: 30px;
-  padding: 10px 95px;
+  padding: 10px 85px;
   color: #666666;
 }
 
 .mo-side-menu {
-  padding: 20px 0;
+  padding: 15px 0;
   border-bottom: 1px solid #f3f3f3;
 }
 
 .mo-side-menu li {
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .mo-side-download {
-  padding: 20px 0 150px 0;
+  padding: 20px 0 120px 0;
 }
 
 .mo-side-download a {
