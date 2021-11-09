@@ -51,15 +51,16 @@
 .mo-side__login-logo {
   background: url("../img/bi-black@2x.png") no-repeat;
   background-size: cover;
-  width: 180px;
-  height: 40px;
+  width: 160px;
+  height: 36px;
   margin: 20px auto;
 }
 
 .mo-side-login button {
   border: 1px solid #c3c4c6;
   border-radius: 30px;
-  padding: 10px 85px;
+  width: 95%;
+  padding: 10px;
   color: #666666;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .mo-side-download {
-  padding: 20px 0 120px 0;
+  padding: 20px 0 100px 0;
 }
 
 .mo-side-download a {
