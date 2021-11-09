@@ -1,4 +1,4 @@
-/* 모바일 사이드 메뉴 */
+/* 모바일 사이드 메뉴 - only mobile */
 .mo-side {
   width: 92%;
   height: 100vh;
@@ -64,12 +64,12 @@
 }
 
 .mo-side-menu {
-  padding: 15px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #f3f3f3;
 }
 
 .mo-side-menu li {
-  padding: 10px 0;
+  padding: 12px 0;
 }
 
 .mo-side-download {
