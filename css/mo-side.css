@@ -10,7 +10,7 @@
   left: -92%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 /* .on {
@@ -31,11 +31,12 @@
 
 .mo-side-header {
   width: 100%;
-  height: 60px;
+  height: 40px;
   top: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
 
 .header-closeBtn {
@@ -43,6 +44,8 @@
   background-size: cover;
   width: 30px;
   height: 30px;
+  position: absolute;
+  top: 0;
 }
 
 .mo-side-login {
@@ -72,7 +75,7 @@
 }
 
 .mo-side-menu li {
-  padding: 12px 0;
+  padding: 15px 0;
 }
 
 .mo-side-download {
