@@ -523,8 +523,3 @@ body {
   font-size: var(--font-size__text-sm);
   padding: 4px 0;
 }
-
-/* 스크롤 시 나타나는 효과 (fade-in) */
-.up-on-scroll {
-  transition: transform 0.7s, opacity 1s;
-}

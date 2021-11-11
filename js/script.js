@@ -55,15 +55,17 @@ $("document").ready(function (){
     }
 
     // 사이드 메뉴 슬라이드
+    // hidden clss는 mobile.css 공통부분에 있음
     $('.navi-menu__mo i').click(function(){
         $('.mo-side-dimm').css('display', 'block');
-        $('.mo-side').animate({left:'0'}, {duration: '700'});
+        $('.mo-side').addClass('on');
         $('html, body').addClass('hidden');
     })
 
     $('.header-closeBtn').click(function(){
         $('.mo-side-dimm').css('display', 'none');
-        $('.mo-side').animate({left: '-100%'}, {duration: '700'});
+        $('.mo-side').removeClass('on');
         $('html, body').removeClass('hidden');
-    })
+    });
+
 });

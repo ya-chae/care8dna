@@ -24,3 +24,24 @@ button {
   font-weight: normal;
   font-size: 16px;
 }
+
+input {
+  border: none;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 15px;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #c4c4c6;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #333333;
+}
+
+/* input:invalid {
+  border-color: #ff4d78;
+} */

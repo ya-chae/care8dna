@@ -1,0 +1,163 @@
+/* login 전체 페이지 */
+.login-center {
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 var(--horizontal-padding);
+  box-sizing: border-box;
+}
+
+/* login-header : login, sign-up 공통 (이전버튼, titke, 닫기버튼 포함)*/
+.login-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.login-header__column {
+  width: 33%;
+}
+
+.login-header img {
+  width: 30px;
+  height: 30px;
+}
+
+.login-header__column:first-child {
+  position: relative;
+  top: 4px;
+}
+
+.login-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.login-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* login-logo : login, sign-up 공통(logo, 환영문구) */
+.login-logo {
+  padding: 40px 0;
+}
+
+.login-logo__img {
+  background: url("../img/bi-black@2x.png") no-repeat;
+  background-size: cover;
+  width: 160px;
+  height: 36px;
+  margin: 10px auto;
+}
+
+.login-logo p {
+  color: var(--font-color__gray);
+}
+
+/* login-form : id입력, pw입력, 로그인 버튼 */
+#login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__column span {
+  font-size: var(--font-size__text-sm);
+  color: #ff4d78;
+}
+
+.login-btn {
+  background-color: #e1e3e7;
+  border-radius: 30px;
+  margin: 20px 0;
+  padding: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* login-find : 아이디 찾기, 비밀번호 찾기, 회원가입 버튼*/
+.login-find {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.login-forget a {
+  color: var(--font-color__gray);
+  margin-left: 10px;
+}
+
+/* SNS 가입 */
+.login-sns {
+  width: 100%;
+  margin: 60px 0;
+}
+
+.login-sns__header {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: var(--font-color__gray);
+  font-size: 14px;
+}
+
+.login-sns__header::before {
+  content: "";
+  flex-grow: 1;
+  margin-right: 10px;
+  background: #f3f3f3;
+  height: 1px;
+  /* list-style: 0px; */
+  /* font-size: 0px; */
+}
+
+.login-sns__header::after {
+  content: "";
+  flex-grow: 1;
+  margin-left: 10px;
+  background: #f3f3f3;
+  height: 1px;
+  /* list-style: 0px; */
+  /* font-size: 0px; */
+}
+
+.login-sns__icons {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.login-sns__icon img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+/* 회사 정보 */
+.company-info {
+  text-align: center;
+}
+
+.company-info span {
+  display: block;
+  padding: 10px;
+  color: #181818;
+  font-size: 13px;
+}
+
+.company-info p {
+  color: var(--font-color__gray);
+  font-size: 10px;
+}
