@@ -57,6 +57,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .mo-side__login-logo {
@@ -81,6 +83,7 @@
 
 /* 리스트 메뉴  */
 .mo-side-menu {
+  flex-grow: 1;
   padding: 10px 0;
   border-bottom: 1px solid #f3f3f3;
 }
@@ -108,7 +111,6 @@
 }
 
 /* SNS 구독하기 */
-
 .mo-side-sns p {
   font-size: var(--font-size__title-sm);
   color: #666666;
