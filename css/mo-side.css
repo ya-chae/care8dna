@@ -1,4 +1,4 @@
-/* 모바일 사이드 메뉴 - only mobile */
+/* 모바일 사이드 메뉴 노출 시 dimm 처리 */
 .mo-side-dimm {
   width: 100%;
   height: 100%;
@@ -11,6 +11,7 @@
   cursor: pointer;
 }
 
+/* 모바일 사이드 메뉴 전체 & 좌우 슬라이드 */
 .mo-side {
   width: 92%;
   height: 100%;
@@ -25,13 +26,13 @@
   z-index: 200;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
 .on {
   left: 0;
 }
 
+/* 닫기 버튼 영역 */
 .mo-side-header {
   width: 100%;
   height: 40px;
@@ -51,6 +52,7 @@
   top: 5px;
 }
 
+/* logo,  로그인/회원가입 버튼 영역 */
 .mo-side-login {
   display: flex;
   flex-direction: column;
@@ -65,25 +67,33 @@
   margin: 20px auto;
 }
 
+.mo-side-login a {
+  width: 96%;
+}
+
 .mo-side-login button {
   border: 1px solid #c3c4c6;
   border-radius: 30px;
-  padding: 10px 80px;
-  color: #666666;
+  padding: 10px 0;
+  width: 100%;
+  color: var(--outline-btn-text);
 }
 
+/* 리스트 메뉴  */
 .mo-side-menu {
   padding: 10px 0;
   border-bottom: 1px solid #f3f3f3;
 }
 
 .mo-side-menu li {
-  padding: 12px 0;
+  padding: 10px 0;
+  margin: 2px auto;
 }
 
+/* care8 DNA 앱 설치 */
 .mo-side-download {
-  height: 25%;
-  padding-top: 10px;
+  padding-top: 20px;
+  flex-grow: 2;
 }
 
 .mo-side-download a {
@@ -97,6 +107,8 @@
   margin-right: 15px;
 }
 
+/* SNS 구독하기 */
+
 .mo-side-sns p {
   font-size: var(--font-size__title-sm);
   color: #666666;
@@ -104,7 +116,7 @@
 
 .mo-side-sns-list {
   display: flex;
-  padding-top: 25px;
+  padding: 25px 0 20px 0;
 }
 
 .mo-side-sns__icon img {

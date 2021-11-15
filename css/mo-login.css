@@ -79,11 +79,11 @@
 }
 
 .login-btn {
-  background-color: #e1e3e7;
+  background: var(--fill-btn__disabled);
   border-radius: 30px;
   margin: 20px 0;
   padding: 15px;
-  color: #fff;
+  color: var(--fill-btn-text);
   font-size: 18px;
 }
 

@@ -10,4 +10,8 @@
   --font-size__tablet-h2: 26px;
   --font-color__gray: #999999;
   --horizontal-padding: 20px;
+  --fill-btn__disabled: #e1e3e7;
+  --fill-btn__abled: linear-gradient(to right, #2ad87a, #07d0bb);
+  --fill-btn-text: #ffffff;
+  --outline-btn-text: #666666;
 }

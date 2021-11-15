@@ -41,7 +41,3 @@ input:focus {
   outline: none;
   border-bottom: 2px solid #333333;
 }
-
-/* input:invalid {
-  border-color: #ff4d78;
-} */
