@@ -83,7 +83,7 @@
 
 /* 리스트 메뉴  */
 .mo-side-menu {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   padding: 10px 0;
   border-bottom: 1px solid #f3f3f3;
 }
