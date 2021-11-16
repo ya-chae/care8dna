@@ -1,14 +1,14 @@
 /* login 전체 페이지 */
 .login-center {
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   padding: 0 var(--horizontal-padding);
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 /* login-header : login, sign-up 공통 (이전버튼, titke, 닫기버튼 포함)*/
@@ -46,7 +46,7 @@
 
 /* login-logo : login, sign-up 공통(logo, 환영문구) */
 .login-logo {
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 .login-logo__img {
@@ -68,6 +68,11 @@
   flex-direction: column;
 }
 
+#login-id,
+#login-pw {
+  width: 100%;
+}
+
 .login-form__column {
   display: flex;
   flex-direction: column;
@@ -78,13 +83,49 @@
   color: #ff4d78;
 }
 
+.login-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.login-input__column {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+.pw__invisible {
+  content: "";
+  background: url("../img/pw-eye-closed@2x.png") no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.input-cancelBtn {
+  content: "";
+  background: url("../img/cancel@2x.png") no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.btn-hidden {
+  display: none;
+}
+
 .login-btn {
-  background: var(--fill-btn__disabled);
+  background: var(--fill-btn__abled);
   border-radius: 30px;
-  margin: 20px 0;
-  padding: 15px;
+  margin: 14px 0;
+  padding: 14px;
   color: var(--fill-btn-text);
-  font-size: 18px;
+  font-size: 17px;
+}
+
+.login-btn:disabled {
+  background: var(--fill-btn__disabled);
 }
 
 /* login-find : 아이디 찾기, 비밀번호 찾기, 회원가입 버튼*/
@@ -100,10 +141,10 @@
   margin-left: 10px;
 }
 
-/* SNS 가입 */
+/* 다른 계정으로 로그인 : SNS 가입 */
 .login-sns {
   width: 100%;
-  margin: 60px 0;
+  padding: 50px 0;
 }
 
 .login-sns__header {
@@ -120,8 +161,6 @@
   margin-right: 10px;
   background: #f3f3f3;
   height: 1px;
-  /* list-style: 0px; */
-  /* font-size: 0px; */
 }
 
 .login-sns__header::after {
@@ -130,8 +169,6 @@
   margin-left: 10px;
   background: #f3f3f3;
   height: 1px;
-  /* list-style: 0px; */
-  /* font-size: 0px; */
 }
 
 .login-sns__icons {
@@ -147,6 +184,7 @@
 
 /* 회사 정보 */
 .company-info {
+  width: 100%;
   text-align: center;
 }
 

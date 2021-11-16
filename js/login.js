@@ -1,5 +1,10 @@
-const loginForm = document.querySelector("#login-form");
-const inputId = document.querySelector("#login-id");
-const inputPw = document.querySelector("#login-pw");
-const loginBtn = document.querySelectorAll(".login-btn");
+const inputBox = document.querySelector(".input-box");
+const loginBtn = document.querySelector(".login-btn");
 
+$(inputBox).on('input', function() {
+    if($(inputBox).val()==''){
+        $(loginBtn).attr("disabled", true);
+    } else {
+        $(loginBtn).attr("disabled", false);
+    }
+})

@@ -31,15 +31,26 @@
 
             <form id="login-form" action="" method="post">
                 <div class="login-form__column">
-                    <input id="login-id" type="text" placeholder="아이디" name="id" required minlength="6" maxlength="15">
+                    <div class="login-input">
+                        <input id="login-id" class="input-box" type="text" placeholder="아이디" name="id" required minlength="6" maxlength="15">
+                        <div class="login-input__column">
+                            <button class="input-cancelBtn btn-hidden"></button>
+                        </div>
+                    </div> 
                     <span id="id-error"></span>
                 </div>
                 <div class="login-form__column">
-                    <input id="login-pw" type="password" placeholder="비밀번호" name="password" required minlength="8" maxlength="15">
+                    <div class="login-input">
+                        <input id="login-pw" class="input-box" type="password" placeholder="비밀번호" name="password" required minlength="8" maxlength="15">
+                        <div class="login-input__column">
+                            <div class="pw__invisible"></div>
+                            <button class="input-cancelBtn btn-hidden"></button>
+                        </div>
+                    </div>
                     <span id="pw-error"></span>
                 </div>
                 
-                <input class="login-btn" type="submit" value="로그인" disabled="disabled">
+                <input class="login-btn" type="submit" value="로그인" disabled="true">
             </form>
 
             <div class="login-find">
