@@ -1,17 +1,11 @@
-/* navigation */
-.navi {
-  position: fixed;
-  top: 0;
-}
-
 /* 로그인 화면 영역 */
 .login {
   width: 50%;
   max-width: 900px;
   margin: 0 auto;
+  margin-top: 3%;
   padding: 40px 60px 30px 60px;
   border: 1px solid #e1e3e7;
-  margin-top: 9%;
 }
 
 /* 다른 계정으로 로그인 : SNS 가입 */

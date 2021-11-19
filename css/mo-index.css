@@ -54,7 +54,7 @@ body {
   height: 26px;
   background: url("../img/bi-white@2x.png") no-repeat;
   background-size: cover;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .navi-menu {
