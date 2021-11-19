@@ -32,11 +32,14 @@ p {
 }
 
 .navi-menu__pc li:last-child {
-  color: #000;
   font-weight: 500;
   background-color: #fff;
   border-radius: 30px;
   margin-left: 40px;
+}
+
+.navi-menu__pc li:last-child a {
+  color: #000;
 }
 
 .navi-menu__mo {
@@ -45,8 +48,11 @@ p {
 
 /* 네비게이션 : 스크롤 내렸을 때 css .active */
 .active-menu ul li:last-child {
-  color: #fff;
   background-color: #23d2f4;
+}
+
+.active-menu ul li:last-child a {
+  color: #fff;
 }
 
 /* 인트로1 */

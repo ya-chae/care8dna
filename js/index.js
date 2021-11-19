@@ -1,5 +1,8 @@
 $("document").ready(function (){
 
+    // navi-logo 선택 시 index화면으로 이동
+
+
     // 스크롤 시 네비게이션 active 상태로 변경 
     $(window).on('scroll', function(){
         if($(window).scrollTop()){
@@ -67,8 +70,4 @@ $("document").ready(function (){
         $('.mo-side').removeClass('on');
         $('html, body').removeClass('hidden');
     });
-
-    // 화면 전환 시 부드럽게 바뀌기
-
-
 });

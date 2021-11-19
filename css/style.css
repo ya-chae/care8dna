@@ -3,15 +3,16 @@
 @import "variables.css";
 
 /* mobile */
-@import url("mobile.css") screen and (min-width: 320px);
+@import url("mo-index.css") screen and (min-width: 320px);
 @import url("mo-side.css") screen and (min-width: 320px);
 @import url("mo-login.css") screen and (min-width: 320px);
 
 /* tablet */
-@import url("tablet.css") screen and (min-width: 768px);
+@import url("tablet-index.css") screen and (min-width: 768px);
 
 /* pc */
-@import url("pc.css") screen and (min-width: 1044px);
+@import url("pc-index.css") screen and (min-width: 1044px);
+@import url("pc-login.css") screen and (min-width: 1044px);
 
 /* animation */
 @import "animation/slide.css";

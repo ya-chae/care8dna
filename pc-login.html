@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navi">
+        <div class="container">
+            <div class="navi-logo active-bi"></div>
+            <div class="navi-menu active-menu">
+                <ul class="navi-menu__pc">
+                    <li><a href="#">유전자검사</a></li>
+                    <li><a href="pc-login.html">마이페이지</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+                <span class="navi-menu__mo">
+                    <i class="fas fa-bars fa-lg"></i>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- pc login 화면 -->
+    <div class="login">
+        <div class="login-center">
+            <div class="login-logo">
+                <div class="login-logo__img"></div>
+                <!-- <p>Care8 DNA에 오신 것을 환영합니다.</p> -->
+            </div>
+
+            <form id="login-form" action="" method="post">
+                <div class="login-form__column">
+                    <div class="login-input">
+                        <input id="login-input-id" class="input-box" type="text" placeholder="아이디" name="id" required minlength="6" maxlength="15">
+                        <div class="login-input__column">
+                            <button class="input-cancelBtn btn-hidden"></button>
+                        </div>
+                    </div> 
+                    <span id="id-error"></span>
+                </div>
+                <div class="login-form__column">
+                    <div class="login-input">
+                        <input id="login-input-pw" class="input-box" type="password" placeholder="비밀번호" name="password" required minlength="8" maxlength="15">
+                        <div class="login-input__column">
+                            <div class="pw__invisible"></div>
+                            <button class="input-cancelBtn btn-hidden"></button>
+                        </div>
+                    </div>
+                    <span id="pw-error"></span>
+                </div>
+                
+                <input class="login-btn" type="submit" value="로그인" disabled="true">
+            </form>
+
+            <div class="login-find">
+                <div class="login-forget">
+                    <a href="#">아이디 찾기</a>
+                    <a href="#">비밀번호 찾기</a>
+                </div>
+                <div class="login-signUp">
+                    <a href="#">회원가입</a>
+                </div>
+            </div>
+
+            <div class="login-sns">
+                <div class="login-sns__header">
+                    다른 서비스 계정으로 로그인
+                </div>
+                <div class="login-sns__icons">
+                    <div class="login-sns__icon">
+                        <a href="#">
+                            <img src="./img/login-naver@2x.png" alt="naver">
+                        </a>
+                    </div>
+                    <div class="login-sns__icon">
+                        <a href="#">
+                            <img src="./img/login-kakao@2x.png" alt="kakao">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="company-info">
+                <a href="#"><span>(주)인바이츠헬스케어 사업자 정보 ></span></a>
+                <p>&copy; 2021 BY inviteshealthcare CO., LTD.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/77d3297036.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

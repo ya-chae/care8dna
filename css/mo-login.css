@@ -8,7 +8,6 @@
   align-items: center;
   margin: 0 auto;
   padding: 0 var(--horizontal-padding);
-  /* box-sizing: border-box; */
 }
 
 /* login-header : login, sign-up 공통 (이전버튼, titke, 닫기버튼 포함)*/
@@ -68,8 +67,8 @@
   flex-direction: column;
 }
 
-#login-id,
-#login-pw {
+#login-input-id,
+#login-input-pw {
   width: 100%;
 }
 
