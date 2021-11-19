@@ -8,11 +8,6 @@
   border: 1px solid #e1e3e7;
 }
 
-.login-btn {
-  margin: 14px 0;
-  padding: 14px;
-}
-
 /* 다른 계정으로 로그인 : SNS 가입 */
 .login-sns {
   padding: 45px 0 25px 0;
