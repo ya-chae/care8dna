@@ -86,8 +86,6 @@
 .login-input input {
   width: 100%;
   margin: 5px 0;
-  border: none;
-  border-bottom: 1px solid #f3f3f3;
 }
 
 .login-input__column {
