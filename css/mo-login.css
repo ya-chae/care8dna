@@ -142,7 +142,7 @@ body {
 /* login-find : 아이디 찾기, 비밀번호 찾기, 회원가입 버튼*/
 .login-find {
   width: 100%;
-  margin-top: 15px;
+  padding: 15px 0;
   display: flex;
   justify-content: space-between;
   font-size: 14px;
@@ -156,7 +156,7 @@ body {
 /* 다른 계정으로 로그인 : SNS 가입 */
 .login-sns {
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 0 60px 0;
 }
 
 .login-sns__header {
