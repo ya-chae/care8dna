@@ -129,7 +129,6 @@ body {
 .login-btn {
   background: var(--fill-btn__abled);
   display: block;
-  /* height: 48px; */
   border-radius: 30px;
   padding: 14px;
   color: var(--fill-btn-text);
@@ -157,7 +156,6 @@ body {
 /* 다른 계정으로 로그인 : SNS 가입 */
 .login-sns {
   width: 100%;
-  flex-grow: 2;
   padding: 50px 0;
 }
 
