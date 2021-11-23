@@ -2,13 +2,16 @@
 .login {
   width: 50%;
   max-width: 900px;
+  height: 70%;
   margin: 0 auto;
   margin-top: 3%;
-  padding: 40px 60px 30px 60px;
+  padding: 40px 60px 40px 60px;
   border: 1px solid #e1e3e7;
 }
 
 /* 다른 계정으로 로그인 : SNS 가입 */
 .login-sns {
-  padding: 45px 0 25px 0;
+  flex-grow: 1;
+  max-height: 300px;
+  padding: 45px 0;
 }
