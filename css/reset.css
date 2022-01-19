@@ -26,6 +26,7 @@ button {
 }
 
 input {
+  outline: none;
   border: none;
   border-bottom: 1px solid #f3f3f3;
   padding: 14px;
@@ -38,5 +39,6 @@ input::placeholder {
 
 input:focus {
   outline: none;
+  border: none;
   border-bottom: 2px solid #333333;
 }
